@@ -24,9 +24,7 @@
 	
  
 <target name="war" depends="compile"> 
-<!-- <war destfile="dist/AntExample.war"
- webxml="WebContent/WEB-INF/web.xml"> 
-<fileset dir="WebContent"/> -->
+
 	
 
 	<war destfile="C:\eap-7\standalone\deployments\AntExample.war"
