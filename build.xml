@@ -29,9 +29,9 @@
 <fileset dir="WebContent"/> -->
 	
 
-	<war destfile="C:\apache-tomcat-8.0.43\webapps\AntExample.war"
-	 webxml="WebContent/WEB-INF/web.xml"> 
-	<fileset dir="WebContent"/>
+	<war destfile="C:\eap-7\standalone\deployments\AntExample.war"
+		 webxml="WebContent/WEB-INF/web.xml"> 
+		<fileset dir="WebContent"/>
 	
 <lib dir="WebContent/WEB-INF/lib"/> 
 <classes dir="build/classes"/> 
